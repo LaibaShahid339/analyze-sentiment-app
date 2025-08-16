@@ -1,0 +1,62 @@
+# ================================
+# Root .gitignore for sentiment-analysis
+# Covers both frontend (React) & backend (Flask/Django/etc.)
+# ================================
+
+# ----------------
+# Node.js / React
+# ----------------
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/coverage
+/frontend/build
+/frontend/.DS_Store
+
+# Environment files (React)
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# NPM / Yarn logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+
+# ----------------
+# Python / Backend
+# ----------------
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/.Python
+/backend/env/
+/backend/venv/
+/backend/.venv/
+/backend/ENV/
+/backend/env.bak/
+/backend/venv.bak/
+
+/backend/.pytest_cache/
+/backend/.coverage
+/backend/htmlcov/
+/backend/.mypy_cache/
+/backend/.DS_Store
+
+# Environment files (Python backend)
+backend/.env
+backend/.env.local
+backend/.env.*
+
+
+# ----------------
+# OS / Editor files
+# ----------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
